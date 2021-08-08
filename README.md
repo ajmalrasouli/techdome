@@ -1,11 +1,33 @@
-# techdome
-- 👋 Hi, I’m @ajmalrasouli
-- 👀 I’m interested in cloud computing.
-- 🌱 I’m currently learning Azure.
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me - ajmail@hotmail.co.uk
+# azure-resume
+My own azure resume, project video. Following [ACG project video.](https://www.youtube.com/watch?v=ieYrBWmkfno)
 
-<!---
-ajmalrasouli/ajmalrasouli is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+
+Before going through these steps you’ll need to have an Azure account. If you don’t have one you can setup a free trial account at https://azure.microsoft.com/free. Let’s walk through each of these steps.
+
+## Prerequisites
+
+- [GitHub account](https://github.com/join)
+- [Azure account](https://azure.microsoft.com/en-us/free)
+- [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
+- [.NET Core 3.1 LTS](https://dotnet.microsoft.com/download/dotnet/3.1)
+- [Azure Functions Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=macos%2Ccsharp%2Cbash#install-the-azure-functions-core-tools)
+- [Visual Studio Code](https://code.visualstudio.com)
+- [Visual Code Extensions](https://code.visualstudio.com/docs/introvideos/extend)
+  - [Azure Functions Extensions](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions)
+  - [C# Extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
+  - [Azure Storage Extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurestorage)
+- [Full solution](https://github.com/ACloudGuru-Resources/acg-project-azure-resume)
+
+## Front-end resources
+
+The front-end is a static site with HTML, CSS, and JavaScript. It's static and has a visitor counter. The visitor counter data fetched via an API call to an Azure Function.
+
+## Back-end resources
+
+The back-end is an [HTTP triggered](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-http-webhook-trigger?tabs=csharp) Azure Functions with Cosmos DB input and output binding. The Function is triggered, it retrieves the CosmosDB item, add +1 to it, and saves it and returns its value to the caller.
+
+## CI/CD Resources
+
+- This is how you can deploy a blob storage static site with [GitHub actions.](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-static-site-github-actions) Used in frontend.main.yml.
+
+
