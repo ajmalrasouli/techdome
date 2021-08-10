@@ -4,6 +4,8 @@ My own azure resume, project video. Following [ACG project video.](https://www.y
 
 Before going through these steps you’ll need to have an Azure account. If you don’t have one you can setup a free trial account at https://azure.microsoft.com/free. Let’s walk through each of these steps.
 
+![Diagram](assets/img/diagram.png)
+
 ## Prerequisites
 
 - [GitHub account](https://github.com/join)
