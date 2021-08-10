@@ -32,4 +32,4 @@ The back-end is an [HTTP triggered](https://docs.microsoft.com/en-us/azure/azure
 
 - This is how you can deploy a blob storage static site with [GitHub actions.](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-static-site-github-actions) Used in frontend.main.yml.
 
-
+![](https://badge.tcblabs.net/api/hc/arasouli/index)
