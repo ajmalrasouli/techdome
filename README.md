@@ -32,4 +32,17 @@ The back-end is an [HTTP triggered](https://docs.microsoft.com/en-us/azure/azure
 
 - This is how you can deploy a blob storage static site with [GitHub actions.](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-static-site-github-actions) Used in frontend.main.yml.
 
+
+## Visitor Counter Badge (Free!)
+Powered by Microsoft Azure
+
+Visitor Counter Badge is a simple open-source utility you can use to display the number of visitors on a web page, repository, or profile. Every request to render the visitor count badge invokes an HTTP-triggered Azure function that dynamically generates an SVG image that you can apply on a web page, profile page, or repository. 
+
+If you are further interested in learning the internals of this service, please read the Visitor Counter Badge article by Rahul Rai on
+[https://thecloudblog.net/lab/serverless-visitor-counter-badge-with-azure-functions/]
+
+
+#
+
+
 ![](https://badge.tcblabs.net/api/hc/arasouli/index)
