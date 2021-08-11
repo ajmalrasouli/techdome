@@ -1,4 +1,4 @@
-# azure-resume
+# #CloudGuruChallenge: Your resume in Azure
 My own azure resume, project video. Following [ACG project video.](https://www.youtube.com/watch?v=ieYrBWmkfno)
 
 
