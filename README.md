@@ -1,5 +1,7 @@
-# azure-resume
-My own azure resume, project video. Following [ACG project video.](https://www.youtube.com/watch?v=ieYrBWmkfno)
+# #CloudGuruChallenge: Your resume in Azure
+Here's what I came up with as a solution to the [Azure Resume Challenge](https://acloudguru.com/blog/engineering/cloudguruchallenge-your-resume-in-azure)
+
+View it live [here](https://www.techdome.co.uk)
 
 
 Before going through these steps you’ll need to have an Azure account. If you don’t have one you can setup a free trial account at https://azure.microsoft.com/free. Let’s walk through each of these steps.
